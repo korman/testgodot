@@ -9,5 +9,7 @@
 position = Vector2( 156, 98 )
 frames = ExtResource( 1 )
 animation = "walk_down"
-frame = 3
+frame = 1
 script = ExtResource( 2 )
+
+[connection signal="animation_finished" from="PlayerSprite" to="PlayerSprite" method="_on_PlayerSprite_animation_finished"]
