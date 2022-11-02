@@ -8,7 +8,6 @@ extends AnimatedSprite
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print("im ready")
 	self.play("walk_right")
 
 
@@ -19,3 +18,13 @@ func _ready():
 
 func _on_PlayerSprite_animation_finished():
 	self.flip_h = !self.flip_h
+
+func _input(event):
+	if event is InputEventKey and event.pressed:
+		if event.scancode == KEY_W:
+			self.play("walk_up")
+		
+		if event.scancode == KEY_S:
+			self.play("walk_down")
+
+	if event is InputEventKey and event.press
