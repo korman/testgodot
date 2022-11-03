@@ -66,6 +66,7 @@ func _input(event):
 
 		if event.scancode == KEY_J:
 			attacking = true
+			AudioManager.play("sou")
 			
 			if dir == 1:
 				self.play("atk_up")

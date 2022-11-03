@@ -36,17 +36,17 @@ animations = [ {
 "frames": [ ExtResource( 19 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 27 ) ],
 "loop": false,
 "name": "atk_down",
-"speed": 10.0
+"speed": 13.0
 }, {
 "frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 20 ) ],
 "loop": false,
 "name": "atk_right",
-"speed": 10.0
+"speed": 13.0
 }, {
 "frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": false,
 "name": "atk_up",
-"speed": 10.0
+"speed": 13.0
 }, {
 "frames": [ ExtResource( 19 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": false,
