@@ -12,4 +12,6 @@ animation = "walk_down"
 frame = 1
 script = ExtResource( 2 )
 
+[node name="AniPlayer" type="Node2D" parent="."]
+
 [connection signal="animation_finished" from="PlayerSprite" to="PlayerSprite" method="_on_PlayerSprite_animation_finished"]
