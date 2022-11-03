@@ -14,6 +14,14 @@ config/name="testgodot"
 run/main_scene="res://root.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+AudioManager="*res://AudioManager.tscn"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/codeandweb.texturepacker/plugin.cfg", "res://addons/get_animplayer_frame_millis/plugin.cfg" )
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true

@@ -1,110 +1,74 @@
-[gd_resource type="SpriteFrames" load_steps=20 format=2]
+[gd_resource type="SpriteFrames" load_steps=31 format=2]
 
-[ext_resource path="res://assets/player.png" type="Texture" id=1]
-
-[sub_resource type="AtlasTexture" id=1]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 0, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=2]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 64, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=3]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 128, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=4]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 192, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=5]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 256, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=6]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 320, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=7]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 384, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=8]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 448, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=9]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 512, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=10]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 576, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=11]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 640, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=12]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 704, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=13]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 768, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=14]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 832, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=15]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 896, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=16]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 960, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=17]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 1024, 0, 64, 64 )
-
-[sub_resource type="AtlasTexture" id=18]
-flags = 4
-atlas = ExtResource( 1 )
-region = Rect2( 1088, 0, 64, 64 )
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/15.tres" type="Texture" id=1]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/06.tres" type="Texture" id=2]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/07.tres" type="Texture" id=3]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/08.tres" type="Texture" id=4]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/09.tres" type="Texture" id=5]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/10.tres" type="Texture" id=6]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/11.tres" type="Texture" id=7]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/00.tres" type="Texture" id=8]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/01.tres" type="Texture" id=9]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/03.tres" type="Texture" id=10]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/04.tres" type="Texture" id=11]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/05.tres" type="Texture" id=12]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/02.tres" type="Texture" id=13]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/16.tres" type="Texture" id=14]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/17.tres" type="Texture" id=15]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/12.tres" type="Texture" id=16]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/14.tres" type="Texture" id=17]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/13.tres" type="Texture" id=18]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/22.tres" type="Texture" id=19]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/21.tres" type="Texture" id=20]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/18.tres" type="Texture" id=21]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/29.tres" type="Texture" id=22]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/28.tres" type="Texture" id=23]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/24.tres" type="Texture" id=24]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/19.tres" type="Texture" id=25]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/20.tres" type="Texture" id=26]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/25.tres" type="Texture" id=27]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/23.tres" type="Texture" id=28]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/26.tres" type="Texture" id=29]
+[ext_resource path="res://assets/sprite_sheets/player/texture.sprites/27.tres" type="Texture" id=30]
 
 [resource]
 animations = [ {
-"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ) ],
+"frames": [ ExtResource( 19 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 27 ) ],
+"loop": false,
+"name": "atk_down",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 20 ) ],
+"loop": false,
+"name": "atk_right",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 23 ), ExtResource( 22 ) ],
+"loop": false,
+"name": "atk_up",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 28 ), ExtResource( 24 ), ExtResource( 27 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 23 ), ExtResource( 22 ) ],
+"loop": false,
+"name": "super",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 20 ) ],
+"loop": false,
+"name": "super_leftright",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
 "loop": true,
 "name": "walk_down",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "walk_right",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ) ],
+"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 17 ), ExtResource( 1 ), ExtResource( 14 ), ExtResource( 15 ) ],
 "loop": true,
 "name": "walk_up",
 "speed": 5.0

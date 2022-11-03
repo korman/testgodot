@@ -1,17 +1,21 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://player.tres" type="SpriteFrames" id=1]
 [ext_resource path="res://PlayerSprite.gd" type="Script" id=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "attack"
 
 [node name="root" type="Node2D"]
 
 [node name="PlayerSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 156, 98 )
 frames = ExtResource( 1 )
-animation = "walk_down"
-frame = 1
+animation = "walk_right"
 script = ExtResource( 2 )
 
 [node name="AniPlayer" type="Node2D" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/attack = SubResource( 1 )
 
 [connection signal="animation_finished" from="PlayerSprite" to="PlayerSprite" method="_on_PlayerSprite_animation_finished"]
